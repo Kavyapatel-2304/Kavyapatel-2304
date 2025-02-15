@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: red;}
+        h1{
+            font-style:italic;
+            text-align: center;
+            text-decoration: underline black;
+        }
+        .Chessboard{height: 500px;
+            width: 500px;
+            display: grid;
+            border: 5px solid black;
+            border-style:ridge;
+            border-width: 20px;
+            grid-template-columns:62.5px 62.5px 62.5px 62.5px 62.5px 62.5px 62.5px 62.5px;
+
+        }
+        .black{
+            height: 62.5px;
+            width: 62.5px;
+            background-color: black;
+            color: white;
+            font-size: 40px;
+        }
+        .white{height: 62.5px;
+            width: 62.5px;
+            background-color: white;
+            font-size: 40px;
+            color: black;
+            
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Chess</h1>
+    <center><div class="Chessboard">
+        <div class="black"><center>&#x2656;</center></div>
+        <div class="white"><center>&#9816;</center></div>
+        <div class="black"><center>&#9815;</center></div>
+        <div class="white"><center>&#x2654;</center></div>
+        <div class="black"><center>&#9813;</center></div>
+        <div class="white"><center>&#9815;</center></div>
+        <div class="black"><center>&#9816;</center></div>
+        <div class="white"><center>&#x2656;</center></div>
+
+        <div class="white"><center>&#9817;</center></div>
+        <div class="black"><center>&#9817;</center></div>
+        <div class="white"><center>&#9817;</center></div>
+        <div class="black"><center>&#9817;</center></div>
+        <div class="white"><center>&#9817;</center></div>
+        <div class="black"><center>&#9817;</center></div>
+        <div class="white"><center>&#9817;</center></div>
+        <div class="black"><center>&#9817;</center></div>
+
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+
+        <div class="black"><center>&#9823;</center></div>
+        <div class="white"><center>&#9823;</center></div>
+        <div class="black"><center>&#9823;</center></div>
+        <div class="white"><center>&#9823;</center></div>
+        <div class="black"><center>&#9823;</center></div>
+        <div class="white"><center>&#9823;</center></div>
+        <div class="black"><center>&#9823;</center></div>
+        <div class="white"><center>&#9823;</center></div>
+
+        <div class="white"><center>&#9820;</center></div>
+        <div class="black"><center>&#9822;</center></div>
+        <div class="white"><center>&#9821;</center></div>
+        <div class="black"><center>&#9818;</center></div>
+        <div class="white"><center>&#9819;</center></div>
+        <div class="black"><center>&#9821;</center></div>
+        <div class="white"><center>&#9822;</center></div>
+        <div class="black"><center>&#9820;</center></div>
+        </div></center>
+        <footer>
+            <center><p>&copy; 2023</p></center>
+        </footer> 
+
+</body>
+</html>
